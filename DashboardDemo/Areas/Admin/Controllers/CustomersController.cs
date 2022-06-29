@@ -10,6 +10,7 @@ using DashboardDemo.Models;
 
 namespace DashboardDemo.Areas.Admin.Controllers
 {
+    [Authorize]
     public class CustomersController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();

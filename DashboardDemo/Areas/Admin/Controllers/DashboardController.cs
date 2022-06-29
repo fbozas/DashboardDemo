@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace DashboardDemo.Areas.Admin.Controllers
 {
+    [Authorize]
     public class DashboardController : Controller
     {
         // GET: Admin/Dashboard
